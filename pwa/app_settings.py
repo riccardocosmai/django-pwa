@@ -97,3 +97,5 @@ PWA_APP_DIR = getattr(settings, "PWA_APP_DIR", "auto")
 PWA_APP_LANG = getattr(settings, "PWA_APP_LANG", "en-US")
 PWA_APP_SCREENSHOTS = getattr(settings, "PWA_APP_SCREENSHOTS", [])
 PWA_APP_SHORTCUTS = getattr(settings, "PWA_APP_SHORTCUTS", [])
+PWA_URL_PREFIX = getattr(settings, 'PWA_URL_PREFIX', '')
+
